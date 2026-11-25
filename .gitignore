@@ -1,0 +1,75 @@
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+.remotion/
+.remotion-tmp/
+
+# Rendered media, reference videos, and local audio
+/references/
+*.mp4
+*.webm
+*.[Ww][Aa][Vv]
+**/*_batches/
+**/audio/_cache/
+backup/
+
+# Image files
+*.[Jj][Pp][Gg]
+*.[Jj][Pp][Ee][Gg]
+*.[Jj][Pp][Ee]
+*.[Jj][Ff][Ii][Ff]
+*.[Pp][Nn][Gg]
+*.[Aa][Pp][Nn][Gg]
+*.[Gg][Ii][Ff]
+*.[Ww][Ee][Bb][Pp]
+*.[Aa][Vv][Ii][Ff]
+*.[Ss][Vv][Gg]
+*.[Ss][Vv][Gg][Zz]
+*.[Bb][Mm][Pp]
+*.[Dd][Ii][Bb]
+*.[Ii][Cc][Oo]
+*.[Cc][Uu][Rr]
+*.[Tt][Ii][Ff]
+*.[Tt][Ii][Ff][Ff]
+*.[Hh][Ee][Ii][Cc]
+*.[Hh][Ee][Ii][Ff]
+*.[Jj][Xx][Ll]
+*.[Jj][Pp]2
+*.[Jj]2[Kk]
+*.[Pp][Ss][Dd]
+*.[Ee][Xx][Rr]
+*.[Hh][Dd][Rr]
+*.[Dd][Nn][Gg]
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Tool caches, logs, and temp files
+.cache/
+.codegraph/
+*.log
+*.tmp
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
