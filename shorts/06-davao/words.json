@@ -1,0 +1,901 @@
+{
+  "text": "Bakit nga ba binalikan ng mga tagapag-alaga sa Davao ang kuwento ng isang itlog makalipas ang mahigit dalawampung taon? Noong 1992, napisa sa Philippine Eagle Center si Pag-asa. Siya ang unang Philippine eagle na nabuo at napisa sa ilalim ng pangangalaga ng tao. Sa isang pangkat na matagal nang naghahanap ng paraan para dumami ang mga agila, malaking balita ang isang sisiw. Paglipas ng mga taon, may isa pang itlog na nagpatuloy sa kuwento niya. Ganito kasi yan... parang puno sa punlaan na nagmula sa isang buto. Kapag nagbigay rin ito ng bagong buto, makikita mong umabot na sa ikalawang henerasyon ang inalagaan mo. Sa Davao, gumamit ang breeding team ng paraang tumulong para makabuo ng itlog sina Pag-asa at Kalinawan. Noong 2013, napisa ang anak nilang si Mabuhay. Mabagal magparami ang mga Philippine eagle, kaya mahalaga ang bawat henerasyon. May isa pang kailangang alagaan sa labas ng sentro. Malalawak na bahagi ng kagubatan ang kailangan ng mga agila para makapamuhay sa ligaw. Magkaugnay ang trabaho sa loob ng sentro at ang pagprotekta sa tirahan nila. Kaya ang tanong...",
+  "duration": 65.71466666666667,
+  "words": [
+    {
+      "word": "Bakit",
+      "start": 0.0,
+      "end": 0.46
+    },
+    {
+      "word": "nga",
+      "start": 0.46,
+      "end": 0.64
+    },
+    {
+      "word": "ba",
+      "start": 0.64,
+      "end": 0.76
+    },
+    {
+      "word": "binalikan",
+      "start": 0.76,
+      "end": 1.24
+    },
+    {
+      "word": "ng",
+      "start": 1.24,
+      "end": 1.4
+    },
+    {
+      "word": "mga",
+      "start": 1.4,
+      "end": 1.58
+    },
+    {
+      "word": "tagapag-alaga",
+      "start": 1.58,
+      "end": 2.34
+    },
+    {
+      "word": "sa",
+      "start": 2.34,
+      "end": 2.52
+    },
+    {
+      "word": "Davao",
+      "start": 2.52,
+      "end": 2.9
+    },
+    {
+      "word": "ang",
+      "start": 2.9,
+      "end": 3.12
+    },
+    {
+      "word": "kuwento",
+      "start": 3.12,
+      "end": 3.46
+    },
+    {
+      "word": "ng",
+      "start": 3.46,
+      "end": 3.64
+    },
+    {
+      "word": "isang",
+      "start": 3.64,
+      "end": 3.92
+    },
+    {
+      "word": "itlog",
+      "start": 3.92,
+      "end": 4.28
+    },
+    {
+      "word": "makalipas",
+      "start": 4.28,
+      "end": 4.88
+    },
+    {
+      "word": "ang",
+      "start": 4.88,
+      "end": 5.0
+    },
+    {
+      "word": "mahigit",
+      "start": 5.0,
+      "end": 5.4
+    },
+    {
+      "word": "dalawampung",
+      "start": 5.4,
+      "end": 5.9
+    },
+    {
+      "word": "taon?",
+      "start": 5.9,
+      "end": 6.7
+    },
+    {
+      "word": "Noong",
+      "start": 6.92,
+      "end": 7.18
+    },
+    {
+      "word": "1992,",
+      "start": 7.18,
+      "end": 8.12
+    },
+    {
+      "word": "napisa",
+      "start": 8.54,
+      "end": 8.86
+    },
+    {
+      "word": "sa",
+      "start": 8.86,
+      "end": 9.06
+    },
+    {
+      "word": "Philippine",
+      "start": 9.06,
+      "end": 9.64
+    },
+    {
+      "word": "Eagle",
+      "start": 9.64,
+      "end": 9.84
+    },
+    {
+      "word": "Center",
+      "start": 9.84,
+      "end": 10.3
+    },
+    {
+      "word": "si",
+      "start": 10.3,
+      "end": 10.44
+    },
+    {
+      "word": "Pag-asa.",
+      "start": 10.44,
+      "end": 11.38
+    },
+    {
+      "word": "Siya",
+      "start": 11.62,
+      "end": 11.74
+    },
+    {
+      "word": "ang",
+      "start": 11.74,
+      "end": 11.88
+    },
+    {
+      "word": "unang",
+      "start": 11.88,
+      "end": 12.18
+    },
+    {
+      "word": "Philippine",
+      "start": 12.18,
+      "end": 12.68
+    },
+    {
+      "word": "eagle",
+      "start": 12.68,
+      "end": 12.92
+    },
+    {
+      "word": "na",
+      "start": 12.92,
+      "end": 13.12
+    },
+    {
+      "word": "nabuo",
+      "start": 13.12,
+      "end": 13.48
+    },
+    {
+      "word": "at",
+      "start": 13.48,
+      "end": 13.76
+    },
+    {
+      "word": "napisa",
+      "start": 13.76,
+      "end": 14.2
+    },
+    {
+      "word": "sa",
+      "start": 14.2,
+      "end": 14.42
+    },
+    {
+      "word": "ilalim",
+      "start": 14.42,
+      "end": 14.78
+    },
+    {
+      "word": "ng",
+      "start": 14.78,
+      "end": 14.9
+    },
+    {
+      "word": "pangangalaga",
+      "start": 14.9,
+      "end": 15.52
+    },
+    {
+      "word": "ng",
+      "start": 15.52,
+      "end": 15.7
+    },
+    {
+      "word": "tao.",
+      "start": 15.7,
+      "end": 16.02
+    },
+    {
+      "word": "Sa",
+      "start": 16.64,
+      "end": 16.78
+    },
+    {
+      "word": "isang",
+      "start": 16.78,
+      "end": 17.04
+    },
+    {
+      "word": "pangkat",
+      "start": 17.04,
+      "end": 17.34
+    },
+    {
+      "word": "na",
+      "start": 17.34,
+      "end": 17.48
+    },
+    {
+      "word": "matagal",
+      "start": 17.48,
+      "end": 17.86
+    },
+    {
+      "word": "nang",
+      "start": 17.86,
+      "end": 17.96
+    },
+    {
+      "word": "naghahanap",
+      "start": 17.96,
+      "end": 18.52
+    },
+    {
+      "word": "ng",
+      "start": 18.52,
+      "end": 18.68
+    },
+    {
+      "word": "paraan",
+      "start": 18.68,
+      "end": 19.1
+    },
+    {
+      "word": "para",
+      "start": 19.1,
+      "end": 19.36
+    },
+    {
+      "word": "dumami",
+      "start": 19.36,
+      "end": 19.8
+    },
+    {
+      "word": "ang",
+      "start": 19.8,
+      "end": 19.96
+    },
+    {
+      "word": "mga",
+      "start": 19.96,
+      "end": 20.2
+    },
+    {
+      "word": "agila,",
+      "start": 20.2,
+      "end": 20.92
+    },
+    {
+      "word": "malaking",
+      "start": 21.2,
+      "end": 21.52
+    },
+    {
+      "word": "balita",
+      "start": 21.52,
+      "end": 21.94
+    },
+    {
+      "word": "ang",
+      "start": 21.94,
+      "end": 22.08
+    },
+    {
+      "word": "isang",
+      "start": 22.08,
+      "end": 22.34
+    },
+    {
+      "word": "sisiw.",
+      "start": 22.34,
+      "end": 22.94
+    },
+    {
+      "word": "Paglipas",
+      "start": 23.08,
+      "end": 23.56
+    },
+    {
+      "word": "ng",
+      "start": 23.56,
+      "end": 23.7
+    },
+    {
+      "word": "mga",
+      "start": 23.7,
+      "end": 23.88
+    },
+    {
+      "word": "taon,",
+      "start": 23.88,
+      "end": 24.28
+    },
+    {
+      "word": "may",
+      "start": 24.38,
+      "end": 24.52
+    },
+    {
+      "word": "isa",
+      "start": 24.52,
+      "end": 24.68
+    },
+    {
+      "word": "pang",
+      "start": 24.68,
+      "end": 24.8
+    },
+    {
+      "word": "itlog",
+      "start": 24.8,
+      "end": 25.26
+    },
+    {
+      "word": "na",
+      "start": 25.26,
+      "end": 25.36
+    },
+    {
+      "word": "nagpatuloy",
+      "start": 25.36,
+      "end": 25.96
+    },
+    {
+      "word": "sa",
+      "start": 25.96,
+      "end": 26.1
+    },
+    {
+      "word": "kuwento",
+      "start": 26.1,
+      "end": 26.44
+    },
+    {
+      "word": "niya.",
+      "start": 26.44,
+      "end": 27.1
+    },
+    {
+      "word": "Ganito",
+      "start": 27.1,
+      "end": 27.62
+    },
+    {
+      "word": "kasi",
+      "start": 27.62,
+      "end": 27.92
+    },
+    {
+      "word": "yan...",
+      "start": 27.92,
+      "end": 28.34
+    },
+    {
+      "word": "parang",
+      "start": 28.58,
+      "end": 28.76
+    },
+    {
+      "word": "puno",
+      "start": 28.76,
+      "end": 29.02
+    },
+    {
+      "word": "sa",
+      "start": 29.02,
+      "end": 29.18
+    },
+    {
+      "word": "punlaan",
+      "start": 29.18,
+      "end": 29.66
+    },
+    {
+      "word": "na",
+      "start": 29.66,
+      "end": 29.78
+    },
+    {
+      "word": "nagmula",
+      "start": 29.78,
+      "end": 30.14
+    },
+    {
+      "word": "sa",
+      "start": 30.14,
+      "end": 30.36
+    },
+    {
+      "word": "isang",
+      "start": 30.36,
+      "end": 30.56
+    },
+    {
+      "word": "buto.",
+      "start": 30.56,
+      "end": 31.32
+    },
+    {
+      "word": "Kapag",
+      "start": 31.52,
+      "end": 31.7
+    },
+    {
+      "word": "nagbigay",
+      "start": 31.7,
+      "end": 32.18
+    },
+    {
+      "word": "rin",
+      "start": 32.18,
+      "end": 32.36
+    },
+    {
+      "word": "ito",
+      "start": 32.36,
+      "end": 32.52
+    },
+    {
+      "word": "ng",
+      "start": 32.52,
+      "end": 32.74
+    },
+    {
+      "word": "bagong",
+      "start": 32.74,
+      "end": 33.0
+    },
+    {
+      "word": "buto,",
+      "start": 33.0,
+      "end": 33.46
+    },
+    {
+      "word": "makikita",
+      "start": 33.6,
+      "end": 33.96
+    },
+    {
+      "word": "mong",
+      "start": 33.96,
+      "end": 34.1
+    },
+    {
+      "word": "umabot",
+      "start": 34.1,
+      "end": 34.54
+    },
+    {
+      "word": "na",
+      "start": 34.54,
+      "end": 34.7
+    },
+    {
+      "word": "sa",
+      "start": 34.7,
+      "end": 34.84
+    },
+    {
+      "word": "ikalawang",
+      "start": 34.84,
+      "end": 35.2
+    },
+    {
+      "word": "henerasyon",
+      "start": 35.2,
+      "end": 35.78
+    },
+    {
+      "word": "ang",
+      "start": 35.78,
+      "end": 35.88
+    },
+    {
+      "word": "inalagaan",
+      "start": 35.88,
+      "end": 36.52
+    },
+    {
+      "word": "mo.",
+      "start": 36.52,
+      "end": 36.66
+    },
+    {
+      "word": "Sa",
+      "start": 37.14,
+      "end": 37.28
+    },
+    {
+      "word": "Davao,",
+      "start": 37.28,
+      "end": 37.9
+    },
+    {
+      "word": "gumamit",
+      "start": 38.08,
+      "end": 38.38
+    },
+    {
+      "word": "ang",
+      "start": 38.38,
+      "end": 38.52
+    },
+    {
+      "word": "breeding",
+      "start": 38.52,
+      "end": 38.9
+    },
+    {
+      "word": "team",
+      "start": 38.9,
+      "end": 39.14
+    },
+    {
+      "word": "ng",
+      "start": 39.14,
+      "end": 39.28
+    },
+    {
+      "word": "paraang",
+      "start": 39.28,
+      "end": 39.68
+    },
+    {
+      "word": "tumulong",
+      "start": 39.68,
+      "end": 40.1
+    },
+    {
+      "word": "para",
+      "start": 40.1,
+      "end": 40.32
+    },
+    {
+      "word": "makabuo",
+      "start": 40.32,
+      "end": 40.8
+    },
+    {
+      "word": "ng",
+      "start": 40.8,
+      "end": 40.94
+    },
+    {
+      "word": "itlog",
+      "start": 40.94,
+      "end": 41.28
+    },
+    {
+      "word": "sina",
+      "start": 41.28,
+      "end": 41.5
+    },
+    {
+      "word": "Pag-asa",
+      "start": 41.5,
+      "end": 41.98
+    },
+    {
+      "word": "at",
+      "start": 41.98,
+      "end": 42.16
+    },
+    {
+      "word": "Kalinawan.",
+      "start": 42.16,
+      "end": 42.78
+    },
+    {
+      "word": "Noong",
+      "start": 43.12,
+      "end": 43.38
+    },
+    {
+      "word": "2013,",
+      "start": 43.38,
+      "end": 44.3
+    },
+    {
+      "word": "napisa",
+      "start": 44.54,
+      "end": 44.92
+    },
+    {
+      "word": "ang",
+      "start": 44.92,
+      "end": 45.08
+    },
+    {
+      "word": "anak",
+      "start": 45.08,
+      "end": 45.28
+    },
+    {
+      "word": "nilang",
+      "start": 45.28,
+      "end": 45.62
+    },
+    {
+      "word": "si",
+      "start": 45.62,
+      "end": 45.78
+    },
+    {
+      "word": "Mabuhay.",
+      "start": 45.78,
+      "end": 46.22
+    },
+    {
+      "word": "Mabagal",
+      "start": 46.86,
+      "end": 47.32
+    },
+    {
+      "word": "magparami",
+      "start": 47.32,
+      "end": 47.88
+    },
+    {
+      "word": "ang",
+      "start": 47.88,
+      "end": 48.02
+    },
+    {
+      "word": "mga",
+      "start": 48.02,
+      "end": 48.24
+    },
+    {
+      "word": "Philippine",
+      "start": 48.24,
+      "end": 48.74
+    },
+    {
+      "word": "eagle,",
+      "start": 48.74,
+      "end": 49.36
+    },
+    {
+      "word": "kaya",
+      "start": 49.56,
+      "end": 49.72
+    },
+    {
+      "word": "mahalaga",
+      "start": 49.72,
+      "end": 50.18
+    },
+    {
+      "word": "ang",
+      "start": 50.18,
+      "end": 50.38
+    },
+    {
+      "word": "bawat",
+      "start": 50.38,
+      "end": 50.64
+    },
+    {
+      "word": "henerasyon.",
+      "start": 50.64,
+      "end": 51.7
+    },
+    {
+      "word": "May",
+      "start": 51.96,
+      "end": 52.08
+    },
+    {
+      "word": "isa",
+      "start": 52.08,
+      "end": 52.26
+    },
+    {
+      "word": "pang",
+      "start": 52.26,
+      "end": 52.42
+    },
+    {
+      "word": "kailangang",
+      "start": 52.42,
+      "end": 52.84
+    },
+    {
+      "word": "alagaan",
+      "start": 52.84,
+      "end": 53.4
+    },
+    {
+      "word": "sa",
+      "start": 53.4,
+      "end": 53.56
+    },
+    {
+      "word": "labas",
+      "start": 53.56,
+      "end": 53.88
+    },
+    {
+      "word": "ng",
+      "start": 53.88,
+      "end": 54.0
+    },
+    {
+      "word": "sentro.",
+      "start": 54.0,
+      "end": 54.44
+    },
+    {
+      "word": "Malalawak",
+      "start": 55.06,
+      "end": 55.66
+    },
+    {
+      "word": "na",
+      "start": 55.66,
+      "end": 55.82
+    },
+    {
+      "word": "bahagi",
+      "start": 55.82,
+      "end": 56.22
+    },
+    {
+      "word": "ng",
+      "start": 56.22,
+      "end": 56.34
+    },
+    {
+      "word": "kagubatan",
+      "start": 56.34,
+      "end": 56.96
+    },
+    {
+      "word": "ang",
+      "start": 56.96,
+      "end": 57.18
+    },
+    {
+      "word": "kailangan",
+      "start": 57.18,
+      "end": 57.58
+    },
+    {
+      "word": "ng",
+      "start": 57.58,
+      "end": 57.72
+    },
+    {
+      "word": "mga",
+      "start": 57.72,
+      "end": 57.94
+    },
+    {
+      "word": "agila",
+      "start": 57.94,
+      "end": 58.32
+    },
+    {
+      "word": "para",
+      "start": 58.32,
+      "end": 58.62
+    },
+    {
+      "word": "makapamuhay",
+      "start": 58.62,
+      "end": 59.3
+    },
+    {
+      "word": "sa",
+      "start": 59.3,
+      "end": 59.44
+    },
+    {
+      "word": "ligaw.",
+      "start": 59.44,
+      "end": 60.22
+    },
+    {
+      "word": "Magkaugnay",
+      "start": 60.52,
+      "end": 61.08
+    },
+    {
+      "word": "ang",
+      "start": 61.08,
+      "end": 61.2
+    },
+    {
+      "word": "trabaho",
+      "start": 61.2,
+      "end": 61.64
+    },
+    {
+      "word": "sa",
+      "start": 61.64,
+      "end": 61.8
+    },
+    {
+      "word": "loob",
+      "start": 61.8,
+      "end": 62.02
+    },
+    {
+      "word": "ng",
+      "start": 62.02,
+      "end": 62.16
+    },
+    {
+      "word": "sentro",
+      "start": 62.16,
+      "end": 62.6
+    },
+    {
+      "word": "at",
+      "start": 62.6,
+      "end": 62.92
+    },
+    {
+      "word": "ang",
+      "start": 62.92,
+      "end": 63.06
+    },
+    {
+      "word": "pagprotekta",
+      "start": 63.06,
+      "end": 63.74
+    },
+    {
+      "word": "sa",
+      "start": 63.74,
+      "end": 63.9
+    },
+    {
+      "word": "tirahan",
+      "start": 63.9,
+      "end": 64.24
+    },
+    {
+      "word": "nila.",
+      "start": 64.24,
+      "end": 64.74
+    },
+    {
+      "word": "Kaya",
+      "start": 64.97,
+      "end": 65.21
+    },
+    {
+      "word": "ang",
+      "start": 65.21,
+      "end": 65.36
+    },
+    {
+      "word": "tanong...",
+      "start": 65.36,
+      "end": 65.68
+    }
+  ]
+}

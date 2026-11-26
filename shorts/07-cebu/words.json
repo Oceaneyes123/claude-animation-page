@@ -1,0 +1,846 @@
+{
+  "text": "Bakit nga ba bumagsak ang isang kampanaryo sa Cebu sa lindol na nagmula sa Bohol? Oktubre kinse, 2013. Sa Bohol nagmula ang lindol na may magnitude na pito punto dalawa. Sa kabilang isla, yumanig din ang Cebu City. Isa sa mga bumagsak doon ang kampanaryo ng Basilica del Santo Niño. Ganito kasi yan... Ilagay mo ang isang tore ng mga bloke sa dulo ng mesa. Tapikin mo ang kabilang dulo at puwedeng manginig ang tore. Hindi mo kailangang hawakan ang tore para maipasa rito ang galaw. Sa lindol, gumagalaw ang bato sa isang bitak sa ilalim ng lupa. Mula roon, kumakalat ang mga alon ng pagyanig sa lupa at bato. Umabot ang pagyanig sa kabilang panig ng kipot. Kapag biglang gumalaw ang pundasyon, may sandaling naiiwan sa dating puwesto ang mabigat na bahagi sa itaas. Nagkakaroon ng puwersa sa loob ng tore habang umuuga ito. Magkakaiba ang pinsala sa bawat lugar dahil nag-iiba ang tindi ng pagyanig, uri ng lupa at pagkakagawa ng mga gusali. Kaya ang tanong...",
+  "duration": 60.9915,
+  "words": [
+    {
+      "word": "Bakit",
+      "start": 0.0,
+      "end": 0.38
+    },
+    {
+      "word": "nga",
+      "start": 0.38,
+      "end": 0.56
+    },
+    {
+      "word": "ba",
+      "start": 0.56,
+      "end": 0.68
+    },
+    {
+      "word": "bumagsak",
+      "start": 0.68,
+      "end": 1.411
+    },
+    {
+      "word": "ang",
+      "start": 1.411,
+      "end": 1.28
+    },
+    {
+      "word": "isang",
+      "start": 1.28,
+      "end": 1.52
+    },
+    {
+      "word": "kampanaryo",
+      "start": 1.52,
+      "end": 2.1
+    },
+    {
+      "word": "sa",
+      "start": 2.1,
+      "end": 2.3
+    },
+    {
+      "word": "Cebu",
+      "start": 2.3,
+      "end": 2.66
+    },
+    {
+      "word": "sa",
+      "start": 2.66,
+      "end": 2.84
+    },
+    {
+      "word": "lindol",
+      "start": 2.84,
+      "end": 3.2
+    },
+    {
+      "word": "na",
+      "start": 3.2,
+      "end": 3.32
+    },
+    {
+      "word": "nagmula",
+      "start": 3.32,
+      "end": 3.64
+    },
+    {
+      "word": "sa",
+      "start": 3.64,
+      "end": 3.86
+    },
+    {
+      "word": "Bohol?",
+      "start": 3.86,
+      "end": 4.24
+    },
+    {
+      "word": "Oktubre",
+      "start": 4.94,
+      "end": 5.38
+    },
+    {
+      "word": "kinse,",
+      "start": 5.38,
+      "end": 5.68
+    },
+    {
+      "word": "2013.",
+      "start": 6.2,
+      "end": 7.18
+    },
+    {
+      "word": "Sa",
+      "start": 7.94,
+      "end": 8.12
+    },
+    {
+      "word": "Bohol",
+      "start": 8.12,
+      "end": 8.46
+    },
+    {
+      "word": "nagmula",
+      "start": 8.46,
+      "end": 8.8
+    },
+    {
+      "word": "ang",
+      "start": 8.8,
+      "end": 8.98
+    },
+    {
+      "word": "lindol",
+      "start": 8.98,
+      "end": 9.44
+    },
+    {
+      "word": "na",
+      "start": 9.44,
+      "end": 9.58
+    },
+    {
+      "word": "may",
+      "start": 9.58,
+      "end": 9.72
+    },
+    {
+      "word": "magnitude",
+      "start": 9.72,
+      "end": 10.2
+    },
+    {
+      "word": "na",
+      "start": 10.2,
+      "end": 10.48
+    },
+    {
+      "word": "pito",
+      "start": 10.48,
+      "end": 10.72
+    },
+    {
+      "word": "punto",
+      "start": 10.72,
+      "end": 9.936
+    },
+    {
+      "word": "dalawa.",
+      "start": 9.936,
+      "end": 11.36
+    },
+    {
+      "word": "Sa",
+      "start": 12.1,
+      "end": 12.28
+    },
+    {
+      "word": "kabilang",
+      "start": 12.28,
+      "end": 12.62
+    },
+    {
+      "word": "isla,",
+      "start": 12.62,
+      "end": 13.06
+    },
+    {
+      "word": "yumanig",
+      "start": 13.48,
+      "end": 13.8
+    },
+    {
+      "word": "din",
+      "start": 13.8,
+      "end": 14.06
+    },
+    {
+      "word": "ang",
+      "start": 14.06,
+      "end": 14.26
+    },
+    {
+      "word": "Cebu",
+      "start": 14.26,
+      "end": 14.58
+    },
+    {
+      "word": "City.",
+      "start": 14.58,
+      "end": 14.88
+    },
+    {
+      "word": "Isa",
+      "start": 15.54,
+      "end": 15.72
+    },
+    {
+      "word": "sa",
+      "start": 15.72,
+      "end": 15.88
+    },
+    {
+      "word": "mga",
+      "start": 15.88,
+      "end": 16.06
+    },
+    {
+      "word": "bumagsak",
+      "start": 16.06,
+      "end": 16.56
+    },
+    {
+      "word": "doon",
+      "start": 16.56,
+      "end": 16.92
+    },
+    {
+      "word": "ang",
+      "start": 16.92,
+      "end": 17.02
+    },
+    {
+      "word": "kampanaryo",
+      "start": 17.02,
+      "end": 17.64
+    },
+    {
+      "word": "ng",
+      "start": 17.64,
+      "end": 17.8
+    },
+    {
+      "word": "Basilica",
+      "start": 17.8,
+      "end": 18.36
+    },
+    {
+      "word": "del",
+      "start": 18.36,
+      "end": 18.62
+    },
+    {
+      "word": "Santo",
+      "start": 18.62,
+      "end": 18.86
+    },
+    {
+      "word": "Niño.",
+      "start": 18.86,
+      "end": 19.28
+    },
+    {
+      "word": "Ganito",
+      "start": 19.98,
+      "end": 20.32
+    },
+    {
+      "word": "kasi",
+      "start": 20.32,
+      "end": 20.56
+    },
+    {
+      "word": "yan...",
+      "start": 20.56,
+      "end": 20.86
+    },
+    {
+      "word": "Ilagay",
+      "start": 21.24,
+      "end": 21.58
+    },
+    {
+      "word": "mo",
+      "start": 21.58,
+      "end": 21.76
+    },
+    {
+      "word": "ang",
+      "start": 21.76,
+      "end": 21.9
+    },
+    {
+      "word": "isang",
+      "start": 21.9,
+      "end": 22.18
+    },
+    {
+      "word": "tore",
+      "start": 22.18,
+      "end": 22.52
+    },
+    {
+      "word": "ng",
+      "start": 22.52,
+      "end": 22.7
+    },
+    {
+      "word": "mga",
+      "start": 22.7,
+      "end": 22.94
+    },
+    {
+      "word": "bloke",
+      "start": 22.94,
+      "end": 23.36
+    },
+    {
+      "word": "sa",
+      "start": 23.36,
+      "end": 23.5
+    },
+    {
+      "word": "dulo",
+      "start": 23.5,
+      "end": 23.78
+    },
+    {
+      "word": "ng",
+      "start": 23.78,
+      "end": 23.94
+    },
+    {
+      "word": "mesa.",
+      "start": 23.94,
+      "end": 24.26
+    },
+    {
+      "word": "Tapikin",
+      "start": 24.66,
+      "end": 24.98
+    },
+    {
+      "word": "mo",
+      "start": 24.98,
+      "end": 25.12
+    },
+    {
+      "word": "ang",
+      "start": 25.12,
+      "end": 25.26
+    },
+    {
+      "word": "kabilang",
+      "start": 25.26,
+      "end": 25.62
+    },
+    {
+      "word": "dulo",
+      "start": 25.62,
+      "end": 25.96
+    },
+    {
+      "word": "at",
+      "start": 25.96,
+      "end": 26.14
+    },
+    {
+      "word": "puwedeng",
+      "start": 26.14,
+      "end": 26.52
+    },
+    {
+      "word": "manginig",
+      "start": 26.52,
+      "end": 26.94
+    },
+    {
+      "word": "ang",
+      "start": 26.94,
+      "end": 27.08
+    },
+    {
+      "word": "tore.",
+      "start": 27.08,
+      "end": 27.38
+    },
+    {
+      "word": "Hindi",
+      "start": 27.38,
+      "end": 28.2
+    },
+    {
+      "word": "mo",
+      "start": 28.2,
+      "end": 28.36
+    },
+    {
+      "word": "kailangang",
+      "start": 28.36,
+      "end": 28.72
+    },
+    {
+      "word": "hawakan",
+      "start": 28.72,
+      "end": 29.2
+    },
+    {
+      "word": "ang",
+      "start": 29.2,
+      "end": 29.34
+    },
+    {
+      "word": "tore",
+      "start": 29.34,
+      "end": 29.62
+    },
+    {
+      "word": "para",
+      "start": 29.62,
+      "end": 29.92
+    },
+    {
+      "word": "maipasa",
+      "start": 29.92,
+      "end": 39.39
+    },
+    {
+      "word": "rito",
+      "start": 39.39,
+      "end": 30.68
+    },
+    {
+      "word": "ang",
+      "start": 30.68,
+      "end": 30.88
+    },
+    {
+      "word": "galaw.",
+      "start": 30.88,
+      "end": 31.24
+    },
+    {
+      "word": "Sa",
+      "start": 31.82,
+      "end": 32.08
+    },
+    {
+      "word": "lindol,",
+      "start": 32.08,
+      "end": 32.48
+    },
+    {
+      "word": "gumagalaw",
+      "start": 32.6,
+      "end": 33.08
+    },
+    {
+      "word": "ang",
+      "start": 33.08,
+      "end": 33.2
+    },
+    {
+      "word": "bato",
+      "start": 33.2,
+      "end": 33.44
+    },
+    {
+      "word": "sa",
+      "start": 33.44,
+      "end": 33.66
+    },
+    {
+      "word": "isang",
+      "start": 33.66,
+      "end": 33.88
+    },
+    {
+      "word": "bitak",
+      "start": 33.88,
+      "end": 34.24
+    },
+    {
+      "word": "sa",
+      "start": 34.24,
+      "end": 34.38
+    },
+    {
+      "word": "ilalim",
+      "start": 34.38,
+      "end": 34.74
+    },
+    {
+      "word": "ng",
+      "start": 34.74,
+      "end": 34.88
+    },
+    {
+      "word": "lupa.",
+      "start": 34.88,
+      "end": 35.22
+    },
+    {
+      "word": "Mula",
+      "start": 35.78,
+      "end": 36.04
+    },
+    {
+      "word": "roon,",
+      "start": 36.04,
+      "end": 36.4
+    },
+    {
+      "word": "kumakalat",
+      "start": 36.5,
+      "end": 36.98
+    },
+    {
+      "word": "ang",
+      "start": 36.98,
+      "end": 37.12
+    },
+    {
+      "word": "mga",
+      "start": 37.12,
+      "end": 37.28
+    },
+    {
+      "word": "alon",
+      "start": 37.28,
+      "end": 37.62
+    },
+    {
+      "word": "ng",
+      "start": 37.62,
+      "end": 37.7
+    },
+    {
+      "word": "pagyanig",
+      "start": 37.7,
+      "end": 38.14
+    },
+    {
+      "word": "sa",
+      "start": 38.14,
+      "end": 38.3
+    },
+    {
+      "word": "lupa",
+      "start": 38.3,
+      "end": 38.58
+    },
+    {
+      "word": "at",
+      "start": 38.58,
+      "end": 38.76
+    },
+    {
+      "word": "bato.",
+      "start": 38.76,
+      "end": 39.12
+    },
+    {
+      "word": "Umabot",
+      "start": 39.7,
+      "end": 40.16
+    },
+    {
+      "word": "ang",
+      "start": 40.16,
+      "end": 40.26
+    },
+    {
+      "word": "pagyanig",
+      "start": 40.26,
+      "end": 40.66
+    },
+    {
+      "word": "sa",
+      "start": 40.66,
+      "end": 40.82
+    },
+    {
+      "word": "kabilang",
+      "start": 40.82,
+      "end": 41.14
+    },
+    {
+      "word": "panig",
+      "start": 41.14,
+      "end": 41.54
+    },
+    {
+      "word": "ng",
+      "start": 41.54,
+      "end": 41.68
+    },
+    {
+      "word": "kipot.",
+      "start": 41.68,
+      "end": 42.18
+    },
+    {
+      "word": "Kapag",
+      "start": 42.44,
+      "end": 42.66
+    },
+    {
+      "word": "biglang",
+      "start": 42.66,
+      "end": 43.0
+    },
+    {
+      "word": "gumalaw",
+      "start": 43.0,
+      "end": 43.42
+    },
+    {
+      "word": "ang",
+      "start": 43.42,
+      "end": 43.56
+    },
+    {
+      "word": "pundasyon,",
+      "start": 43.56,
+      "end": 44.18
+    },
+    {
+      "word": "may",
+      "start": 44.5,
+      "end": 44.62
+    },
+    {
+      "word": "sandaling",
+      "start": 44.62,
+      "end": 45.02
+    },
+    {
+      "word": "naiiwan",
+      "start": 45.02,
+      "end": 45.66
+    },
+    {
+      "word": "sa",
+      "start": 45.66,
+      "end": 45.86
+    },
+    {
+      "word": "dating",
+      "start": 45.86,
+      "end": 46.18
+    },
+    {
+      "word": "puwesto",
+      "start": 46.18,
+      "end": 46.56
+    },
+    {
+      "word": "ang",
+      "start": 46.56,
+      "end": 46.76
+    },
+    {
+      "word": "mabigat",
+      "start": 46.76,
+      "end": 47.2
+    },
+    {
+      "word": "na",
+      "start": 47.2,
+      "end": 47.3
+    },
+    {
+      "word": "bahagi",
+      "start": 47.3,
+      "end": 47.72
+    },
+    {
+      "word": "sa",
+      "start": 47.72,
+      "end": 47.9
+    },
+    {
+      "word": "itaas.",
+      "start": 47.9,
+      "end": 48.4
+    },
+    {
+      "word": "Nagkakaroon",
+      "start": 48.9,
+      "end": 49.54
+    },
+    {
+      "word": "ng",
+      "start": 49.54,
+      "end": 49.72
+    },
+    {
+      "word": "puwersa",
+      "start": 49.72,
+      "end": 50.16
+    },
+    {
+      "word": "sa",
+      "start": 50.16,
+      "end": 50.26
+    },
+    {
+      "word": "loob",
+      "start": 50.26,
+      "end": 50.5
+    },
+    {
+      "word": "ng",
+      "start": 50.5,
+      "end": 50.62
+    },
+    {
+      "word": "tore",
+      "start": 50.62,
+      "end": 50.96
+    },
+    {
+      "word": "habang",
+      "start": 50.96,
+      "end": 51.38
+    },
+    {
+      "word": "umuuga",
+      "start": 51.38,
+      "end": 51.9
+    },
+    {
+      "word": "ito.",
+      "start": 51.9,
+      "end": 52.24
+    },
+    {
+      "word": "Magkakaiba",
+      "start": 52.8,
+      "end": 53.28
+    },
+    {
+      "word": "ang",
+      "start": 53.28,
+      "end": 53.44
+    },
+    {
+      "word": "pinsala",
+      "start": 53.44,
+      "end": 53.98
+    },
+    {
+      "word": "sa",
+      "start": 53.98,
+      "end": 54.12
+    },
+    {
+      "word": "bawat",
+      "start": 54.12,
+      "end": 54.44
+    },
+    {
+      "word": "lugar",
+      "start": 54.44,
+      "end": 54.74
+    },
+    {
+      "word": "dahil",
+      "start": 54.74,
+      "end": 55.36
+    },
+    {
+      "word": "nag-iiba",
+      "start": 55.36,
+      "end": 55.84
+    },
+    {
+      "word": "ang",
+      "start": 55.84,
+      "end": 55.96
+    },
+    {
+      "word": "tindi",
+      "start": 55.96,
+      "end": 56.18
+    },
+    {
+      "word": "ng",
+      "start": 56.18,
+      "end": 56.4
+    },
+    {
+      "word": "pagyanig,",
+      "start": 56.4,
+      "end": 56.98
+    },
+    {
+      "word": "uri",
+      "start": 57.22,
+      "end": 57.44
+    },
+    {
+      "word": "ng",
+      "start": 57.44,
+      "end": 57.54
+    },
+    {
+      "word": "lupa",
+      "start": 57.54,
+      "end": 57.9
+    },
+    {
+      "word": "at",
+      "start": 57.9,
+      "end": 58.1
+    },
+    {
+      "word": "pagkakagawa",
+      "start": 58.1,
+      "end": 58.78
+    },
+    {
+      "word": "ng",
+      "start": 58.78,
+      "end": 58.9
+    },
+    {
+      "word": "mga",
+      "start": 58.9,
+      "end": 59.1
+    },
+    {
+      "word": "gusali.",
+      "start": 59.1,
+      "end": 59.58
+    },
+    {
+      "word": "Kaya",
+      "start": 60.04,
+      "end": 60.32
+    },
+    {
+      "word": "ang",
+      "start": 60.32,
+      "end": 60.44
+    },
+    {
+      "word": "tanong...",
+      "start": 60.44,
+      "end": 60.76
+    }
+  ]
+}

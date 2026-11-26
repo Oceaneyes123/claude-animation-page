@@ -39,9 +39,13 @@ User rules that apply:
    - **Consequence:** the rule it created.
    - **Callback twist:** the ending.
    - Never describe on screen what the viewer already sees.
-3. **Voice & Subtitles.** Record or generate `voice.wav` (e.g. `python scripts/render_narration.py <SCRIPT.md>`, which defaults to VoiceStudio voice `Reid` and `--language English`; pass `--language Tagalog` to override for Tagalog), then make its word timings `words.json` (any speech-to-text with word times, e.g. `faster-whisper` with `word_timestamps=True`).
+   - **Pronunciation & stress (for TTS):** Where stress is ambiguous or misread by VoxCPM2, mark it in the narration text as necessary:
+     - Tagalog minimal pairs and loanwords: put acute accents on the stressed vowel (`á, é, í, ó, ú`, e.g. *bukás* vs *búkas*, *komersyál*, *enerhíya*), collapse over-pronounced glide syllables (`puwede` → `pwéde`, `suwerte` → `swérte`, `kuwento` → `kwénto`), or lightly respell foreign words/names to match the spoken phonology (e.g. `Dunes` → `Juns` in Tagalog narration). Avoid `ALL CAPS` or hyphens where they introduce unnatural pauses or letter spelling.
+     - English words (when using VoxCPM2 with `normalize=False`): CMUDict tokens with stress digits (`0` unstressed, `1` primary, `2` secondary) in `{...}` can override stress on a specific word (e.g. `{R IH0 K AO1 R D}` vs `{R EH1 K ER0 D}`).
+3. **Voice & Subtitles.** Record or generate `voice.wav` / `narration.wav` (e.g. `python scripts/render_narration_colab.py <SCRIPT.md>` on Colab GPU, or `python scripts/render_narration.py <SCRIPT.md>` locally via VoiceStudio, which defaults to voice `Reid` and `--language English`; pass `--language Tagalog` locally when needed), then make its word timings `words.json` (any speech-to-text with word times, e.g. `faster-whisper` with `word_timestamps=True`).
    - Put them in the project folder, e.g. `~/bridge-short/voice/` or `video2/`.
-   - Hand-fix ASR spelling errors and word timings in `words.json`. Everything is timed to `words.json`.
+   - If a batch still mis-stresses a word, tweak the stress/respelling or re-roll that batch with `--no-ref-text` / a different `--seed` (or splice a short re-rendered phrase).
+   - Hand-fix ASR spelling errors, stripped accents, phonetic respellings (restore standard spelling for display), and word timings in `words.json`. Everything is timed to `words.json`.
    - If using subtitles, generate `src/videos/<name>/captions.ts` from `words.json` (1–2 words per cue; see **Subtitles** below).
 4. **Shot plan** in `story.ts`: copy `templates/bridge/` (the final bridge source, same as `src/videos/bridge/` of your Remotion project) to `src/videos/<name>/`, register a new composition next to `BridgeShort` in `src/Root.tsx`, and rename it.
    - `SHOTS`: id, a/b frames, light day/golden, crowd mode, `tau` story time.
