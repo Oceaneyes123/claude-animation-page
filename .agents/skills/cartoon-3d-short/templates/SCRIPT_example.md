@@ -1,5 +1,5 @@
 # "The Bridge That Fell for a Song" — original script v1 (2026-10-30)
-Format: the reference-Clips-style short (~55 s, ~3.7 words/s), the voice, our own characters + story.
+Historical draft (~55 s at ~3.7 words/s). Use its story beats as a reference and plan new shorts for a finished runtime of 70–80 seconds.
 Facts: Broughton Suspension Bridge, Salford, 12 April 1831; 74 men of the 60th Rifle Corps marching four abreast;
 felt the bridge vibrate in time with their steps, found it amusing, some whistled a marching tune and stepped to it;
 a badly forged single bolt in a stay-chain snapped; one end fell 16-18 ft into the River Irwell, about 2 ft deep there;
