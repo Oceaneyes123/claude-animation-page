@@ -53,7 +53,7 @@ _TIMESTAMP_PREFIX_RE = re.compile(
 )
 _VOICEOVER_HEADER_RE = re.compile(r"^\s*(?:#+\s*)?voiceover\b.*:\s*$", re.IGNORECASE)
 _ALT_NARRATION_HEADER_RE = re.compile(
-    r"^\s*#{1,6}\s*(?:hakbang\s*2\b.*|draft\s+na\s+salaysay\b.*|narration\b.*|script\b.*)$",
+    r"^\s*#{1,6}\s*(?:hakbang\s*2\b.*|(?:aprubadong\s+|draft\s+na\s+)?salaysay\b.*|narration\b.*|script\b.*)$",
     re.IGNORECASE,
 )
 _HEADING_RE = re.compile(r"^\s*#{1,6}\s+")

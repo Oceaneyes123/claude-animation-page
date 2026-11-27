@@ -134,6 +134,20 @@ class ColabOrchestratorTests(unittest.TestCase):
         self.assertNotIn("Hakbang 1", bolinao)
         self.assertNotIn("Preview ng mga visual", bolinao)
 
+        v10 = render_narration_colab.parse_script_text(
+            (root / "shorts/10-asin-tibuok/SCRIPT.md").read_text(encoding="utf-8-sig")
+        )
+        self.assertTrue(v10.startswith("Bakit nga ba, parang itlog ang asin na"))
+        self.assertNotIn("Makikita sa cartoon", v10)
+        self.assertNotIn("Mga sanggunian", v10)
+
+        v15 = render_narration_colab.parse_script_text(
+            (root / "shorts/15-pampanga-parol/SCRIPT.md").read_text(encoding="utf-8-sig")
+        )
+        self.assertTrue(v15.startswith("Bakit nga ba, sumasabay sa tugtog"))
+        self.assertNotIn("Makikita sa cartoon", v15)
+        self.assertNotIn("Mga sanggunian", v15)
+
     def test_parse_usage_info_extracts_balance_rate_and_active(self) -> None:
         sample = (
             "Current balance: 196.50 compute units\n"

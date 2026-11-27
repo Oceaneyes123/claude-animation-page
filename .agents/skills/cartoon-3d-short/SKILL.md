@@ -1,6 +1,6 @@
 ---
 name: cartoon-3d-short
-description: Make a 70–80-second vertical cartoon story short in the "2D characters in a colourful 3D world" style (flat bean-head cartoon cards with ink outlines, painted 3D town/world with black ink lines, saturated sky, depth-of-field backgrounds, gliding cameras, voice narration, synthesized SFX + march-style music), rendered with three.js inside Remotion. Proven on "The Bridge That Fell for a Song" (2026-10-31). Use when the user asks for another video "like the bridge video", "like the soldiers/bridge short", "in that cartoon 3D style", a history/science story short with cartoon characters in 3D, or says "use the cartoon short skill".
+description: Make a vertical cartoon story short in the "2D characters in a colourful 3D world" style (flat bean-head cartoon cards with ink outlines, painted 3D town/world with black ink lines, saturated sky, depth-of-field backgrounds, gliding cameras, voice narration, synthesized SFX + march-style music), rendered with three.js inside Remotion. Proven on "The Bridge That Fell for a Song" (2026-10-31). Use when the user asks for another video "like the bridge video", "like the soldiers/bridge short", "in that cartoon 3D style", a history/science story short with cartoon characters in 3D, or says "use the cartoon short skill".
 ---
 
 # Cartoon 3D story short (three.js + Remotion)
@@ -17,7 +17,7 @@ The style reference is a channel studied privately (`references/`: STYLE_BIBLE.m
 
 User rules that apply:
 - Subtitles (optional / when requested): 1–2 word lower-third cartoon-outlined captions timed to `words.json` (still no 3D in-world text labels on props/signs).
-- Language: English or Tagalog (for Tagalog, start hook with `"Bakit nga ba ... ?"` and pivot with `"Ganito kasi yan..."` instead of `"you see..."`).
+- Language: English or Tagalog. Read the [Tagalog scripting guide](references/script/tagalog_guide.md) before pitching, writing, or revising Filipino Shorts. It covers runtime, narration structure, loop endings, and TTS stress.
 - Voice: one steady tone.
 - Jokes are researched real facts.
 - Standard mix: music +3 dB, SFX -6 dB, voice unchanged.
@@ -29,7 +29,7 @@ User rules that apply:
 ## Pipeline
 1. **Topic and facts.** Pick one surprising true story with a physical cause and effect (it should be visual), plus a simple everyday analogy that explains it.
    - Write the facts with their source at the top of `SCRIPT.md`.
-2. **Script.** Plan for a finished runtime of 70–80 seconds. Estimate at the chosen narrator's natural pace (~3.7 words/s in the bridge example). Beat formula from the bridge short:
+2. **Script.** Use the runtime specified in the brief. By default, use the runtime in the Tagalog scripting guide for Filipino Shorts and 70–80 seconds for the bridge-style format. Estimate at the chosen narrator’s natural pace. Use the linked guide for Tagalog. The bridge short uses these beats:
    - **Hook:** the absurd fact in one line ("Seventy-four soldiers knocked down an iron bridge just by walking across it.").
    - **Setting:** year, place, pride.
    - **Action:** escalation over three or four beats, each a little bigger.
@@ -39,17 +39,15 @@ User rules that apply:
    - **Consequence:** the rule it created.
    - **Callback twist:** the ending.
    - Never describe on screen what the viewer already sees.
-   - **Pronunciation & stress (for TTS):** Where stress is ambiguous or misread by VoxCPM2, mark it in the narration text as necessary:
-     - Tagalog minimal pairs and loanwords: put acute accents on the stressed vowel (`á, é, í, ó, ú`, e.g. *bukás* vs *búkas*, *komersyál*, *enerhíya*), collapse over-pronounced glide syllables (`puwede` → `pwéde`, `suwerte` → `swérte`, `kuwento` → `kwénto`), or lightly respell foreign words/names to match the spoken phonology (e.g. `Dunes` → `Juns` in Tagalog narration). Avoid `ALL CAPS` or hyphens where they introduce unnatural pauses or letter spelling.
-     - English words (when using VoxCPM2 with `normalize=False`): CMUDict tokens with stress digits (`0` unstressed, `1` primary, `2` secondary) in `{...}` can override stress on a specific word (e.g. `{R IH0 K AO1 R D}` vs `{R EH1 K ER0 D}`).
+   - **English pronunciation in VoxCPM2.** With `normalize=False`, CMUDict tokens with stress digits (`0` unstressed, `1` primary, `2` secondary) in `{...}` can override stress on a specific word (e.g. `{R IH0 K AO1 R D}` vs `{R EH1 K ER0 D}`).
 3. **Voice & Subtitles.** Record or generate `voice.wav` / `narration.wav` (e.g. `python scripts/render_narration_colab.py <SCRIPT.md>` on Colab GPU, or `python scripts/render_narration.py <SCRIPT.md>` locally via VoiceStudio, which defaults to voice `Reid` and `--language English`; pass `--language Tagalog` locally when needed), then make its word timings `words.json` (any speech-to-text with word times, e.g. `faster-whisper` with `word_timestamps=True`).
    - Put them in the project folder, e.g. `~/bridge-short/voice/` or `video2/`.
-   - Measure the narration with its intended pauses. Revise the script and re-record as needed to fit the 70–80 second timeline at a natural pace.
+   - Measure the narration with its intended pauses. Revise the script and re-record as needed to fit the episode’s target runtime at a natural pace.
    - If a batch still mis-stresses a word, tweak the stress/respelling or re-roll that batch with `--no-ref-text` / a different `--seed` (or splice a short re-rendered phrase).
    - Hand-fix ASR spelling errors, stripped accents, phonetic respellings (restore standard spelling for display), and word timings in `words.json`. Everything is timed to `words.json`.
    - If using subtitles, generate `src/videos/<name>/captions.ts` from `words.json` (1–2 words per cue; see **Subtitles** below).
 4. **Shot plan** in `story.ts`: copy `templates/bridge/` (the final bridge source, same as `src/videos/bridge/` of your Remotion project) to `src/videos/<name>/`, register a new composition next to `BridgeShort` in `src/Root.tsx`, and rename it.
-   - Set the episode's total from the shot plan (2,100–2,400 frames at 30 fps). Use the same frame count in Remotion and the episode's audio timeline.
+   - Set the episode’s total from the shot plan and target runtime. Multiply the duration in seconds by the frame rate and round to a whole frame. Use the same frame count in Remotion and the episode’s audio timeline.
    - `SHOTS`: id, a/b frames, light day/golden, crowd mode, `tau` story time.
    - `XFADE`: crossfades at place/time changes.
    - `FLASH_AT`: a white flash after the hook.
@@ -84,7 +82,7 @@ User rules that apply:
     - `npx remotion render src/index.ts <Comp> out/<name>/video.mp4 --codec h264 --crf 16 --scale 1.3333`
     - Mux with `-map 0:v:0 -map 1:a:0` (Remotion writes a silent audio track).
     - QA: `python scripts/short_qa.py final.mp4 out/<name>/qa shots.json` checks every frame for black, white, frozen and pop frames, plus loudness and sheets.
-    - Confirm the final muxed MP4 runs 70–80 seconds using the duration in the QA report.
+    - Confirm the final muxed MP4 matches the episode’s target runtime using the duration in the QA report.
     - Fix anything it finds, then run a deep Opus audit.
 11. **Deliver.** SendUserFile the final mp4, update memory, write notes.
 

@@ -15,7 +15,10 @@ coverage/
 *.[Ww][Aa][Vv]
 **/*_batches/
 **/audio/_cache/
+
+# Local backups and archives
 backup/
+archive/
 
 # Image files
 *.[Jj][Pp][Gg]
